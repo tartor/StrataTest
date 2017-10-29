@@ -22,4 +22,6 @@ All the logic manipulation is done in the ....Action classes
 Most of the Action classes inherit from AuthenticatedAction to ensure they are used only when there is a logged in user
 
 
+External library RazorEngine is used to create email template. The email template for this example is kept in memory but can be hold in a file and read on demamnd
 
+The parameters for the SmtpClient used to send the  email should be available in web.config
